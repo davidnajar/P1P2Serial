@@ -38,6 +38,9 @@
 #define SHIFTCNT        // prints package counter related to shifting bit in final packet
 //#define LCD             // show Daikin hybrid data on SPI SSD 1306 128x64 LCD connected to pins 2-6
                         //            (this is not available in RAWMONITOR mode)
+                        //            (this requires the installation of the u8g2 library, see
+                        //                   https://github.com/olikraus/u8g2/wiki/u8g2install)
+
 
 #include <P1P2Serial.h>
 
