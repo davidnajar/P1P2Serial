@@ -36,7 +36,7 @@
 #define PRINTCRC        // prints CRC byte at end of line (otherwise it will not be printed)
 #define PRINTERRORS     // prints overrun error and parity errors as byte prefix ("-OR:" and "-PE:")
 #define SHIFTCNT        // prints package counter related to shifting bit in final packet
-#define LCD             // show Daikin hybrid data on SPI SSD 1306 128x64 LCD connected to pins 2-6
+//#define LCD             // show Daikin hybrid data on SPI SSD 1306 128x64 LCD connected to pins 2-6
                         //            (this is not available in RAWMONITOR mode)
 
 #include <P1P2Serial.h>
