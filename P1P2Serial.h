@@ -67,6 +67,7 @@
 #define DELTA_EOB 0xFFFE
 #define DELTA_OVERRUN 0xFFFC
 #define DELTA_COLLISION 0xFFFB
+#define DELTA_MAXLEN 0xFF00
 #define DELTA_CRCE 0xFFFA
 
 class P1P2Serial : public Stream
